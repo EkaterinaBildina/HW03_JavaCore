@@ -2,6 +2,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -58,6 +59,9 @@ public class Main {
         }
 
         System.out.println(getAverageSalaryAndAge(employees));
+
+
+        Employee.PrintResultOfAgeCompare(employee1, teamLeader);
 
     }
 
